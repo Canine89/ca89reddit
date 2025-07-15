@@ -77,6 +77,7 @@ export default function SignupPage() {
         회원가입
       </button>
       <div className="text-center mt-4 text-sm">
+        <div className="mb-2 text-gray-500">메일 인증을 하지 않으면 로그인할 수 없습니다.</div>
         이미 계정이 있으신가요?{' '}
         <a href="/auth/login" className="text-reddit-orange font-semibold hover:underline">로그인</a>
       </div>
